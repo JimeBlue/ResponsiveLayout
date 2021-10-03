@@ -3,16 +3,31 @@
   padding: 0;
 }
 
-/* note: just to highlight different sections */
-.grid div:nth-child(even) {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-areas:
+    '. header header .'
+    '. aside content .'
+    '. footer footer .';
+}
+
+.header {
+  grid-area: header;
   background-color: red;
 }
 
-.grid div:nth-child(odd) {
-  background-color: green;
+.aside {
+  grid-area: aside;
+  background-color: blue;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.content {
+  grid-area: content;
+  background-color: yellow;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: green;
 }
