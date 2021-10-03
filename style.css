@@ -19,6 +19,17 @@
   background-color: red;
 }
 
+.content {
+  grid-area: content;
+  background-color: yellow;
+  padding: 4rem;
+}
+
+.content__heading,
+.aside__heading {
+  margin-bottom: 1rem;
+}
+
 .aside {
   grid-area: aside;
   background-color: blue;
@@ -30,11 +41,6 @@
 
 .aside__feature {
   margin: 1rem;
-}
-
-.content {
-  grid-area: content;
-  background-color: yellow;
 }
 
 .footer {
