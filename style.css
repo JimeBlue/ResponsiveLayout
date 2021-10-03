@@ -16,7 +16,22 @@
 
 .header {
   grid-area: header;
-  background-color: red;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.nav__list {
+  display: none;
+}
+
+.nav__logo,
+.nav__item > a {
+  text-decoration: none;
+  color: #000;
 }
 
 .content {
@@ -75,6 +90,16 @@
       '. content content .'
       '. aside aside .'
       '. footer footer .';
+  }
+
+  .nav__toggler {
+    display: none;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    list-style-type: none;
   }
 
   .aside {
