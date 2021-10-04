@@ -17,4 +17,4 @@ This is the solution to Lesson 2 Assignment of the Advanced HTML and CSS course,
 ## What I learned
 * How to use CSS Grid to create a whole page layout.
 * How to style a navbar and and footer using Flexbox.
-* How to style a site using a mobile first approch and how to use media queries to make the site responsive.
+* How to style a site using a mobile first approach and how to use media queries to make the site responsive.
